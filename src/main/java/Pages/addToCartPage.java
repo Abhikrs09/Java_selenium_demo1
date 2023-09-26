@@ -5,8 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
+import Utilities.elementsUtils;
+
+
 public class addToCartPage {
 	public WebDriver driver;
+	public elementsUtils elemUtils;
 
 	
 	@FindBy(xpath = "(//p[@class='product-name'])[1]")
@@ -21,7 +25,8 @@ public class addToCartPage {
     
 	public addToCartPage(WebDriver driver) {
         this.driver = driver;
-        PageFactory.initElements(driver, this); 
+        PageFactory.initElements(driver, this);
+        elemUtils = new elementsUtils(driver);
     }
 	
 	public String displayCucumberPresentInCartText() {
@@ -31,6 +36,8 @@ public class addToCartPage {
 	public String dispalyBeetRootPresentInCartText() {
 		return beetRootInMiniBasket.getText();
 	}
+	
+
 	
 	public void cilckBtnProceedToCheckout() {
 		btnProceedToCheckout.click();
