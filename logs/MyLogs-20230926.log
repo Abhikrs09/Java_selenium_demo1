@@ -1,0 +1,76 @@
+2023-09-26 12:36:43.597 [main] INFO  testcases.VerifyProductsAreDisplayedOnTheHomePage - ----- Verifying the product is displayed on homepage or not -----
+2023-09-26 12:36:43.695 [main] INFO  testcases.VerifyProductsAreDisplayedOnTheHomePage - Brocolli image is visible.
+2023-09-26 12:36:43.696 [main] INFO  testcases.VerifyProductsAreDisplayedOnTheHomePage - ----- Verifying the brocolli image  is displayed visible -----
+2023-09-26 12:36:43.702 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:36:43.702 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:36:48.818 [main] INFO  testcases.VerifySearchFuntioanlityOnHomePage - -----(FailedTestcase) Verifying the search functionality -----
+2023-09-26 12:36:48.824 [main] INFO  testcases.VerifySearchFuntioanlityOnHomePage - ----- Giving data to the searchbox for searching -----
+2023-09-26 12:36:49.330 [main] INFO  testcases.VerifySearchFuntioanlityOnHomePage - ----- Verifying that the name appers while searching the product is same or not -----
+2023-09-26 12:36:49.332 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:36:49.332 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:36:54.064 [main] INFO  testcases.VerifySearchFuntioanlityOnHomePage - ----- Verifying the search functionality -----
+2023-09-26 12:36:54.067 [main] INFO  testcases.VerifySearchFuntioanlityOnHomePage - ----- Giving data to the searchbox for searching -----
+2023-09-26 12:36:54.887 [main] INFO  testcases.VerifySearchFuntioanlityOnHomePage - ----- Verifying that the name appers while searching the product is same or not -----
+2023-09-26 12:36:54.890 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:36:54.890 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:36:59.845 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying the product image and Add to cart button is displayed or not -----
+2023-09-26 12:36:59.846 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Strong the web element of productImage productTitile and buttons in list -----
+2023-09-26 12:37:00.465 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Asserting the size of the list of productImage and productTitle -----
+2023-09-26 12:37:00.466 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Asserting the size of the list of productImage and buttons -----
+2023-09-26 12:37:00.466 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.518 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.562 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.604 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.635 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.664 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.697 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.723 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.752 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.781 [main] INFO  testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct - ----- Verifying that the productImage , productTitle, buttons are displayed or not -----
+2023-09-26 12:37:00.808 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:00.808 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:37:05.823 [main] INFO  testcases.VerifyAddToCartFuntionality - ----- Checking the total of selected item price -----
+2023-09-26 12:37:06.541 [main] INFO  testcases.VerifyAddToCartFuntionality - ----- Verifying the total of selected item price -----
+2023-09-26 12:37:06.543 [main] INFO  testcases.VerifyAddToCartFuntionality - ----- Verifying the total of selected item selected -----
+2023-09-26 12:37:06.566 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:06.566 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:37:10.909 [main] INFO  testcases.VerifyProductDetailsInMiniBasket - ----- Verifying the product present in Mini Basket-----
+2023-09-26 12:37:11.687 [main] INFO  testcases.VerifyProductDetailsInMiniBasket - ----- Matching the cucumber present in cart with the homepage name -----
+2023-09-26 12:37:11.848 [main] INFO  testcases.VerifyProductDetailsInMiniBasket - ----- Matching the beetroot present in cart with the homepage name -----
+2023-09-26 12:37:11.898 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:11.899 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:37:16.303 [main] INFO  testcases.VerifyProductDetailsInCheckoutPage - ----- Verifying the product present in checkout Page -----
+2023-09-26 12:37:17.166 [main] INFO  testcases.VerifyProductDetailsInCheckoutPage - ----- Matching the cucumber present in cart with the homepage name -----
+2023-09-26 12:37:17.684 [main] INFO  testcases.VerifyProductDetailsInCheckoutPage - ----- Matching the product Beetroot present in cart ans checking is it is present in checkout page or not -----
+2023-09-26 12:37:17.749 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:17.750 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:37:22.740 [main] INFO  testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions - ----- This testcase will failed because we are not clicking the checkbox and proceed for checkout -----
+2023-09-26 12:37:24.494 [main] INFO  testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions - ----- Asserting that checkbox is selected or not -----
+2023-09-26 12:37:24.616 [main] INFO  testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions - ----- Verifying that message when order is not placed -----
+2023-09-26 12:37:24.617 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:24.618 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:37:28.898 [main] INFO  testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions - ----- Verifying the TermsAndCondition is selected or not -----
+2023-09-26 12:37:30.681 [main] INFO  testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions - ----- is checkbox is selected -----
+2023-09-26 12:37:30.826 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:30.826 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:37:35.792 [main] INFO  testcases.VerifySingleItemOrderType - ----- navigating to terms and condition page -----
+2023-09-26 12:37:38.190 [main] INFO  testcases.VerifySingleItemOrderType - ----- Verifying the terms and condition message with actual one -----
+2023-09-26 12:37:38.192 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:38.192 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:37:42.616 [main] INFO  testcases.VerifySingleItemOrderType - ----- Ordering single item -----
+2023-09-26 12:37:43.219 [main] INFO  testcases.VerifySingleItemOrderType - ----- verifying the price of product with price of cart -----
+2023-09-26 12:37:44.414 [main] INFO  testcases.VerifySingleItemOrderType - ----- Verifying that message when order is placed -----
+2023-09-26 12:37:44.415 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:44.418 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:37:48.738 [main] INFO  testcases.VerifySingleItemOrderType - ----- Ordering single item -----
+2023-09-26 12:37:50.409 [main] INFO  testcases.VerifySingleItemOrderType - ----- Verifying that message when order is placed -----
+2023-09-26 12:37:50.410 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:50.411 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:37:54.542 [main] INFO  testcases.VerifyMultipleItemOrderType - ----- Verifying Multiple item Order -----
+2023-09-26 12:37:56.257 [main] INFO  testcases.VerifyMultipleItemOrderType - ----- Verifying that message when order is placed -----
+2023-09-26 12:37:56.258 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:37:56.258 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________
+2023-09-26 12:38:00.633 [main] INFO  testcases.VerifyMultipleItemOrderType - ----- Verifying Multiple item Order with multiple quantity -----
+2023-09-26 12:38:02.858 [main] INFO  testcases.VerifyMultipleItemOrderType - ----- Verifying that message when order is placed -----
+2023-09-26 12:38:02.859 [main] INFO  BasePackage.BasePage - Test case got passed
+2023-09-26 12:38:02.859 [main] INFO  BasePackage.BasePage - __________________________________________________________________________________

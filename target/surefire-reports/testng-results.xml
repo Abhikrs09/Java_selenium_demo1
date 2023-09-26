@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-26T12:36:34 IST" name="Suite" finished-at="2023-09-26T12:38:03 IST" duration-ms="88600">
+    <groups>
+    </groups>
+    <test started-at="2023-09-26T12:36:34 IST" name="Test" finished-at="2023-09-26T12:38:03 IST" duration-ms="88600">
+      <class name="testcases.VerifyProductsAreDisplayedOnTheHomePage">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@40f1be1b]" started-at="2023-09-26T12:36:34 IST" name="setUp" finished-at="2023-09-26T12:36:43 IST" duration-ms="8882" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyProductsAreDisplayedOnTheHomePage.imageAreDisplayedOrNot()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="imageAreDisplayedOrNot()[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@40f1be1b]" started-at="2023-09-26T12:36:43 IST" name="imageAreDisplayedOrNot" finished-at="2023-09-26T12:36:43 IST" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- imageAreDisplayedOrNot -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@40f1be1b]" started-at="2023-09-26T12:36:43 IST" name="testStatus" finished-at="2023-09-26T12:36:44 IST" duration-ms="805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=imageAreDisplayedOrNot status=SUCCESS method=VerifyProductsAreDisplayedOnTheHomePage.imageAreDisplayedOrNot()[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@40f1be1b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifyProductsAreDisplayedOnTheHomePage -->
+      <class name="testcases.VerifyProductDetailsInMiniBasket">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@590c73d3]" started-at="2023-09-26T12:37:06 IST" name="setUp" finished-at="2023-09-26T12:37:10 IST" duration-ms="3950" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyProductDetailsInMiniBasket.checkDetailsInMiniBasket()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkDetailsInMiniBasket()[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@590c73d3]" started-at="2023-09-26T12:37:10 IST" name="checkDetailsInMiniBasket" finished-at="2023-09-26T12:37:11 IST" duration-ms="990" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDetailsInMiniBasket -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@590c73d3]" started-at="2023-09-26T12:37:11 IST" name="testStatus" finished-at="2023-09-26T12:37:12 IST" duration-ms="409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkDetailsInMiniBasket status=SUCCESS method=VerifyProductDetailsInMiniBasket.checkDetailsInMiniBasket()[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@590c73d3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifyProductDetailsInMiniBasket -->
+      <class name="testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@6f2cb653]" started-at="2023-09-26T12:36:55 IST" name="setUp" finished-at="2023-09-26T12:36:59 IST" duration-ms="4465" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct.verifyAllElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAllElements()[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@6f2cb653]" started-at="2023-09-26T12:36:59 IST" name="verifyAllElements" finished-at="2023-09-26T12:37:00 IST" duration-ms="964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllElements -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@6f2cb653]" started-at="2023-09-26T12:37:00 IST" name="testStatus" finished-at="2023-09-26T12:37:01 IST" duration-ms="462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyAllElements status=SUCCESS method=VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct.verifyAllElements()[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@6f2cb653] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct -->
+      <class name="testcases.VerifyMultipleItemOrderType">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyMultipleItemOrderType@435871cb]" started-at="2023-09-26T12:37:50 IST" name="setUp" finished-at="2023-09-26T12:37:54 IST" duration-ms="3707" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyMultipleItemOrderType.VerifyMultiLIneOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyMultiLIneOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@435871cb]" started-at="2023-09-26T12:37:54 IST" name="VerifyMultiLIneOrder" finished-at="2023-09-26T12:37:56 IST" duration-ms="1719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMultiLIneOrder -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyMultipleItemOrderType@435871cb]" started-at="2023-09-26T12:37:56 IST" name="testStatus" finished-at="2023-09-26T12:37:56 IST" duration-ms="474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyMultiLIneOrder status=SUCCESS method=VerifyMultipleItemOrderType.VerifyMultiLIneOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@435871cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyMultipleItemOrderType@435871cb]" started-at="2023-09-26T12:37:56 IST" name="setUp" finished-at="2023-09-26T12:38:00 IST" duration-ms="3900" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyMultipleItemOrderType.VerifyMultiLineMultiQtyOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifyMultiLineMultiQtyOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@435871cb]" started-at="2023-09-26T12:38:00 IST" name="VerifyMultiLineMultiQtyOrder" finished-at="2023-09-26T12:38:02 IST" duration-ms="2226" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyMultiLineMultiQtyOrder -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyMultipleItemOrderType@435871cb]" started-at="2023-09-26T12:38:02 IST" name="testStatus" finished-at="2023-09-26T12:38:03 IST" duration-ms="406" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyMultiLineMultiQtyOrder status=SUCCESS method=VerifyMultipleItemOrderType.VerifyMultiLineMultiQtyOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@435871cb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifyMultipleItemOrderType -->
+      <class name="testcases.VerifyUserCanNavigateToTermsAndConditionsPage">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@75ed9710]" started-at="2023-09-26T12:37:31 IST" name="setUp" finished-at="2023-09-26T12:37:35 IST" duration-ms="4285" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyUserCanNavigateToTermsAndConditionsPage.NavigateToTermsAndConditionsPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="NavigateToTermsAndConditionsPage()[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@75ed9710]" started-at="2023-09-26T12:37:35 IST" name="NavigateToTermsAndConditionsPage" finished-at="2023-09-26T12:37:38 IST" duration-ms="2399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NavigateToTermsAndConditionsPage -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@75ed9710]" started-at="2023-09-26T12:37:38 IST" name="testStatus" finished-at="2023-09-26T12:37:38 IST" duration-ms="491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=NavigateToTermsAndConditionsPage status=SUCCESS method=VerifyUserCanNavigateToTermsAndConditionsPage.NavigateToTermsAndConditionsPage()[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@75ed9710] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifyUserCanNavigateToTermsAndConditionsPage -->
+      <class name="testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@61884cb1]" started-at="2023-09-26T12:37:18 IST" name="setUp" finished-at="2023-09-26T12:37:22 IST" duration-ms="4335" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.FailingTestCase_notSelectTermsAndCondition() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FailingTestCase_notSelectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@61884cb1]" started-at="2023-09-26T12:37:22 IST" name="FailingTestCase_notSelectTermsAndCondition" finished-at="2023-09-26T12:37:24 IST" duration-ms="1877" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailingTestCase_notSelectTermsAndCondition -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@61884cb1]" started-at="2023-09-26T12:37:24 IST" name="testStatus" finished-at="2023-09-26T12:37:25 IST" duration-ms="417" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FailingTestCase_notSelectTermsAndCondition status=SUCCESS method=VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.FailingTestCase_notSelectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@61884cb1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@61884cb1]" started-at="2023-09-26T12:37:25 IST" name="setUp" finished-at="2023-09-26T12:37:28 IST" duration-ms="3863" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.selectTermsAndCondition() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="selectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@61884cb1]" started-at="2023-09-26T12:37:28 IST" name="selectTermsAndCondition" finished-at="2023-09-26T12:37:30 IST" duration-ms="1927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectTermsAndCondition -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@61884cb1]" started-at="2023-09-26T12:37:30 IST" name="testStatus" finished-at="2023-09-26T12:37:31 IST" duration-ms="680" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectTermsAndCondition status=SUCCESS method=VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.selectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@61884cb1] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions -->
+      <class name="testcases.VerifyAddToCartFuntionality">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyAddToCartFuntionality@14c01636]" started-at="2023-09-26T12:37:01 IST" name="setUp" finished-at="2023-09-26T12:37:05 IST" duration-ms="4551" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyAddToCartFuntionality.AddToCart()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AddToCart()[pri:0, instance:testcases.VerifyAddToCartFuntionality@14c01636]" started-at="2023-09-26T12:37:05 IST" name="AddToCart" finished-at="2023-09-26T12:37:06 IST" duration-ms="743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddToCart -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyAddToCartFuntionality@14c01636]" started-at="2023-09-26T12:37:06 IST" name="testStatus" finished-at="2023-09-26T12:37:06 IST" duration-ms="390" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=VerifyAddToCartFuntionality.AddToCart()[pri:0, instance:testcases.VerifyAddToCartFuntionality@14c01636] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifyAddToCartFuntionality -->
+      <class name="testcases.VerifyProductDetailsInCheckoutPage">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@6b9ce1bf]" started-at="2023-09-26T12:37:12 IST" name="setUp" finished-at="2023-09-26T12:37:16 IST" duration-ms="3995" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifyProductDetailsInCheckoutPage.checkoutPage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="checkoutPage()[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@6b9ce1bf]" started-at="2023-09-26T12:37:16 IST" name="checkoutPage" finished-at="2023-09-26T12:37:17 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkoutPage -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@6b9ce1bf]" started-at="2023-09-26T12:37:17 IST" name="testStatus" finished-at="2023-09-26T12:37:18 IST" duration-ms="655" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkoutPage status=SUCCESS method=VerifyProductDetailsInCheckoutPage.checkoutPage()[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@6b9ce1bf] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifyProductDetailsInCheckoutPage -->
+      <class name="testcases.VerifySingleItemOrderType">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySingleItemOrderType@4fc5e095]" started-at="2023-09-26T12:37:38 IST" name="setUp" finished-at="2023-09-26T12:37:42 IST" duration-ms="3932" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifySingleItemOrderType.VerifySingleLineMultiQtyOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifySingleLineMultiQtyOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@4fc5e095]" started-at="2023-09-26T12:37:42 IST" name="VerifySingleLineMultiQtyOrder" finished-at="2023-09-26T12:37:44 IST" duration-ms="1799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySingleLineMultiQtyOrder -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySingleItemOrderType@4fc5e095]" started-at="2023-09-26T12:37:44 IST" name="testStatus" finished-at="2023-09-26T12:37:44 IST" duration-ms="373" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySingleLineMultiQtyOrder status=SUCCESS method=VerifySingleItemOrderType.VerifySingleLineMultiQtyOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@4fc5e095] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySingleItemOrderType@4fc5e095]" started-at="2023-09-26T12:37:44 IST" name="setUp" finished-at="2023-09-26T12:37:48 IST" duration-ms="3948" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifySingleItemOrderType.VerifySingleLineOrder()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="VerifySingleLineOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@4fc5e095]" started-at="2023-09-26T12:37:48 IST" name="VerifySingleLineOrder" finished-at="2023-09-26T12:37:50 IST" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySingleLineOrder -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySingleItemOrderType@4fc5e095]" started-at="2023-09-26T12:37:50 IST" name="testStatus" finished-at="2023-09-26T12:37:50 IST" duration-ms="420" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifySingleLineOrder status=SUCCESS method=VerifySingleItemOrderType.VerifySingleLineOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@4fc5e095] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifySingleItemOrderType -->
+      <class name="testcases.VerifySearchFuntioanlityOnHomePage">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@7a791b66]" started-at="2023-09-26T12:36:44 IST" name="setUp" finished-at="2023-09-26T12:36:48 IST" duration-ms="4309" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifySearchFuntioanlityOnHomePage.FailedTestcase_matchingSearchedProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="FailedTestcase_matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@7a791b66]" started-at="2023-09-26T12:36:48 IST" name="FailedTestcase_matchingSearchedProduct" finished-at="2023-09-26T12:36:49 IST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FailedTestcase_matchingSearchedProduct -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@7a791b66]" started-at="2023-09-26T12:36:49 IST" name="testStatus" finished-at="2023-09-26T12:36:49 IST" duration-ms="596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=FailedTestcase_matchingSearchedProduct status=SUCCESS method=VerifySearchFuntioanlityOnHomePage.FailedTestcase_matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@7a791b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@7a791b66]" started-at="2023-09-26T12:36:49 IST" name="setUp" finished-at="2023-09-26T12:36:54 IST" duration-ms="4131" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.VerifySearchFuntioanlityOnHomePage.matchingSearchedProduct()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@7a791b66]" started-at="2023-09-26T12:36:54 IST" name="matchingSearchedProduct" finished-at="2023-09-26T12:36:54 IST" duration-ms="830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- matchingSearchedProduct -->
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@7a791b66]" started-at="2023-09-26T12:36:54 IST" name="testStatus" finished-at="2023-09-26T12:36:55 IST" duration-ms="488" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=matchingSearchedProduct status=SUCCESS method=VerifySearchFuntioanlityOnHomePage.matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@7a791b66] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStatus -->
+      </class> <!-- testcases.VerifySearchFuntioanlityOnHomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
