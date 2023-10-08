@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods, 1 failed,   13 passed</span>
+                    <span class="method-stats">14 methods, 2 failed,   12 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcases.VerifySearchFuntioanlityOnHomePage" class="method navigator-link" hash-for-method="FailedTestcase_matchingSearchedProduct">FailedTestcase_matchingSearchedProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcases.VerifyUserCanNavigateToTermsAndConditionsPage" class="method navigator-link" hash-for-method="NavigateToTermsAndConditionsPage">NavigateToTermsAndConditionsPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -122,11 +127,6 @@
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions" class="method navigator-link" hash-for-method="FailingTestCase_notSelectTermsAndCondition">FailingTestCase_notSelectTermsAndCondition</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcases.VerifyUserCanNavigateToTermsAndConditionsPage" class="method navigator-link" hash-for-method="NavigateToTermsAndConditionsPage">NavigateToTermsAndConditionsPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -194,6 +194,49 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
+              <span class="class-name">testcases.VerifyUserCanNavigateToTermsAndConditionsPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="NavigateToTermsAndConditionsPage">
+                  </a> <!-- NavigateToTermsAndConditionsPage -->
+                  <span class="method-name">NavigateToTermsAndConditionsPage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[contains(text(),&apos;Terms &amp; Conditions&apos;)]&quot;}
+  (Session info: chrome=117.0.5938.134)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39cab8739cb45e794de9a5dc6961901c, findElement {using=xpath, value=//a[contains(text(),&apos;Terms &amp; Conditions&apos;)]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\Kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53822/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 39cab8739cb45e794de9a5dc6961901c
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source)
+	at Pages.finalCheckOutPage.cilckTermsAndCondition(finalCheckOutPage.java:61)
+	at testcases.VerifyUserCanNavigateToTermsAndConditionsPage.NavigateToTermsAndConditionsPage(VerifyUserCanNavigateToTermsAndConditionsPage.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 36 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
               <span class="class-name">testcases.VerifySearchFuntioanlityOnHomePage</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -203,14 +246,14 @@
                   </a> <!-- FailedTestcase_matchingSearchedProduct -->
                   <span class="method-name">FailedTestcase_matchingSearchedProduct</span>
                   <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//h4[text()=&apos;Cucumber - 1 Kg&apos;]&quot;}
-  (Session info: chrome=117.0.5938.92)
+  (Session info: chrome=117.0.5938.134)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.11.0&apos;, revision: &apos;040bc5406b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8.1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.2&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [635cb4fb023424d5e1b431a9f6a35b0b, findElement {using=xpath, value=//h4[text()=&apos;Cucumber - 1 Kg&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51178/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 635cb4fb023424d5e1b431a9f6a35b0b
+Command: [2f4baaa1c2e99a030edc6ac657ac88e3, findElement {using=xpath, value=//h4[text()=&apos;Cucumber - 1 Kg&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\Kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53592/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f4baaa1c2e99a030edc6ac657ac88e3
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -253,14 +296,14 @@ Session ID: 635cb4fb023424d5e1b431a9f6a35b0b
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct</span>
+              <span class="class-name">testcases.VerifyProductDetailsInMiniBasket</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyAllElements">
-                  </a> <!-- verifyAllElements -->
-                  <span class="method-name">verifyAllElements</span>
+                  <a name="checkDetailsInMiniBasket">
+                  </a> <!-- checkDetailsInMiniBasket -->
+                  <span class="method-name">checkDetailsInMiniBasket</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -276,28 +319,6 @@ Session ID: 635cb4fb023424d5e1b431a9f6a35b0b
                   <a name="matchingSearchedProduct">
                   </a> <!-- matchingSearchedProduct -->
                   <span class="method-name">matchingSearchedProduct</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.VerifyMultipleItemOrderType</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyMultiLIneOrder">
-                  </a> <!-- VerifyMultiLIneOrder -->
-                  <span class="method-name">VerifyMultiLIneOrder</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="VerifyMultiLineMultiQtyOrder">
-                  </a> <!-- VerifyMultiLineMultiQtyOrder -->
-                  <span class="method-name">VerifyMultiLineMultiQtyOrder</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -342,29 +363,21 @@ Session ID: 635cb4fb023424d5e1b431a9f6a35b0b
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.VerifyProductDetailsInMiniBasket</span>
+              <span class="class-name">testcases.VerifySingleItemOrderType</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="checkDetailsInMiniBasket">
-                  </a> <!-- checkDetailsInMiniBasket -->
-                  <span class="method-name">checkDetailsInMiniBasket</span>
+                  <a name="VerifySingleLineMultiQtyOrder">
+                  </a> <!-- VerifySingleLineMultiQtyOrder -->
+                  <span class="method-name">VerifySingleLineMultiQtyOrder</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Suite-class-passed -->
-          <div class="suite-Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">testcases.VerifyUserCanNavigateToTermsAndConditionsPage</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="NavigateToTermsAndConditionsPage">
-                  </a> <!-- NavigateToTermsAndConditionsPage -->
-                  <span class="method-name">NavigateToTermsAndConditionsPage</span>
+                  <a name="VerifySingleLineOrder">
+                  </a> <!-- VerifySingleLineOrder -->
+                  <span class="method-name">VerifySingleLineOrder</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -387,21 +400,36 @@ Session ID: 635cb4fb023424d5e1b431a9f6a35b0b
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">testcases.VerifySingleItemOrderType</span>
+              <span class="class-name">testcases.VerifyMultipleItemOrderType</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifySingleLineMultiQtyOrder">
-                  </a> <!-- VerifySingleLineMultiQtyOrder -->
-                  <span class="method-name">VerifySingleLineMultiQtyOrder</span>
+                  <a name="VerifyMultiLIneOrder">
+                  </a> <!-- VerifyMultiLIneOrder -->
+                  <span class="method-name">VerifyMultiLIneOrder</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="VerifySingleLineOrder">
-                  </a> <!-- VerifySingleLineOrder -->
-                  <span class="method-name">VerifySingleLineOrder</span>
+                  <a name="VerifyMultiLineMultiQtyOrder">
+                  </a> <!-- VerifyMultiLineMultiQtyOrder -->
+                  <span class="method-name">VerifyMultiLineMultiQtyOrder</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAllElements">
+                  </a> <!-- verifyAllElements -->
+                  <span class="method-name">verifyAllElements</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -470,66 +498,66 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'FailedTestcase_matchingSearchedProduct')
-data.setCell(0, 2, 'testcases.VerifySearchFuntioanlityOnHomePage')
-data.setCell(0, 3, 10832);
+data.setCell(0, 1, 'NavigateToTermsAndConditionsPage')
+data.setCell(0, 2, 'testcases.VerifyUserCanNavigateToTermsAndConditionsPage')
+data.setCell(0, 3, 11593);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'VerifyMultiLineMultiQtyOrder')
-data.setCell(1, 2, 'testcases.VerifyMultipleItemOrderType')
-data.setCell(1, 3, 2426);
+data.setCell(1, 1, 'FailedTestcase_matchingSearchedProduct')
+data.setCell(1, 2, 'testcases.VerifySearchFuntioanlityOnHomePage')
+data.setCell(1, 3, 10747);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'NavigateToTermsAndConditionsPage')
-data.setCell(2, 2, 'testcases.VerifyUserCanNavigateToTermsAndConditionsPage')
-data.setCell(2, 3, 2229);
+data.setCell(2, 1, 'selectTermsAndCondition')
+data.setCell(2, 2, 'testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions')
+data.setCell(2, 3, 2896);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'FailingTestCase_notSelectTermsAndCondition')
 data.setCell(3, 2, 'testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions')
-data.setCell(3, 3, 2014);
+data.setCell(3, 3, 2602);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'selectTermsAndCondition')
-data.setCell(4, 2, 'testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions')
-data.setCell(4, 3, 1974);
+data.setCell(4, 1, 'VerifyMultiLineMultiQtyOrder')
+data.setCell(4, 2, 'testcases.VerifyMultipleItemOrderType')
+data.setCell(4, 3, 2460);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'VerifySingleLineMultiQtyOrder')
-data.setCell(5, 2, 'testcases.VerifySingleItemOrderType')
-data.setCell(5, 3, 1875);
+data.setCell(5, 1, 'checkoutPage')
+data.setCell(5, 2, 'testcases.VerifyProductDetailsInCheckoutPage')
+data.setCell(5, 3, 2105);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'checkoutPage')
-data.setCell(6, 2, 'testcases.VerifyProductDetailsInCheckoutPage')
-data.setCell(6, 3, 1759);
+data.setCell(6, 1, 'VerifySingleLineMultiQtyOrder')
+data.setCell(6, 2, 'testcases.VerifySingleItemOrderType')
+data.setCell(6, 3, 2036);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'VerifyMultiLIneOrder')
 data.setCell(7, 2, 'testcases.VerifyMultipleItemOrderType')
-data.setCell(7, 3, 1744);
+data.setCell(7, 3, 1878);
 data.setCell(8, 0, 8)
 data.setCell(8, 1, 'VerifySingleLineOrder')
 data.setCell(8, 2, 'testcases.VerifySingleItemOrderType')
-data.setCell(8, 3, 1688);
+data.setCell(8, 3, 1780);
 data.setCell(9, 0, 9)
 data.setCell(9, 1, 'matchingSearchedProduct')
 data.setCell(9, 2, 'testcases.VerifySearchFuntioanlityOnHomePage')
-data.setCell(9, 3, 1063);
+data.setCell(9, 3, 1209);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'checkDetailsInMiniBasket')
-data.setCell(10, 2, 'testcases.VerifyProductDetailsInMiniBasket')
-data.setCell(10, 3, 1002);
+data.setCell(10, 1, 'verifyAllElements')
+data.setCell(10, 2, 'testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct')
+data.setCell(10, 3, 1053);
 data.setCell(11, 0, 11)
-data.setCell(11, 1, 'verifyAllElements')
-data.setCell(11, 2, 'testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct')
-data.setCell(11, 3, 973);
+data.setCell(11, 1, 'AddToCart')
+data.setCell(11, 2, 'testcases.VerifyAddToCartFuntionality')
+data.setCell(11, 3, 974);
 data.setCell(12, 0, 12)
-data.setCell(12, 1, 'AddToCart')
-data.setCell(12, 2, 'testcases.VerifyAddToCartFuntionality')
-data.setCell(12, 3, 788);
+data.setCell(12, 1, 'checkDetailsInMiniBasket')
+data.setCell(12, 2, 'testcases.VerifyProductDetailsInMiniBasket')
+data.setCell(12, 3, 899);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'imageAreDisplayedOrNot')
 data.setCell(13, 2, 'testcases.VerifyProductsAreDisplayedOnTheHomePage')
-data.setCell(13, 3, 159);
+data.setCell(13, 3, 162);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 30 seconds</span>
+              <span class="suite-total-time">Total running time: 42 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -562,196 +590,198 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">imageAreDisplayedOrNot</span>
-                <span class="method-start">10996 ms</span>
+                <span class="method-start">12860 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=imageAreDisplayedOrNot status=SUCCESS method=VerifyProductsAreDisplayedOnTheHomePag...)</span>
-                <span class="method-start">11160 ms</span>
+                <span class="method-start">13026 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.VerifySearchFuntioanlityOnHomePage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifySearchFuntioanlityOnHomePage.FailedTestcase_matchingSearchedProduct())</span>
-                <span class="method-start">12024 ms</span>
+                <span class="method-start">14056 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">FailedTestcase_matchingSearchedProduct</span>
-                <span class="method-start">17602 ms</span>
+                <span class="method-start">18127 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=FailedTestcase_matchingSearchedProduct status=FAILURE method=VerifySearchFuntioanli...)</span>
-                <span class="method-start">28450 ms</span>
+                <span class="method-start">28874 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifySearchFuntioanlityOnHomePage.matchingSearchedProduct())</span>
-                <span class="method-start">29122 ms</span>
+                <span class="method-start">29618 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">matchingSearchedProduct</span>
-                <span class="method-start">33627 ms</span>
+                <span class="method-start">33672 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=matchingSearchedProduct status=SUCCESS method=VerifySearchFuntioanlityOnHomePage.ma...)</span>
-                <span class="method-start">34690 ms</span>
+                <span class="method-start">34881 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct.verifyAllE...)</span>
-                <span class="method-start">35118 ms</span>
+                <span class="method-start">35511 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyAllElements</span>
-                <span class="method-start">39521 ms</span>
+                <span class="method-start">39638 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=verifyAllElements status=SUCCESS method=VerifyProductImagePriceAndAddToCartButtonAr...)</span>
-                <span class="method-start">40494 ms</span>
+                <span class="method-start">40691 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.VerifyAddToCartFuntionality</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifyAddToCartFuntionality.AddToCart())</span>
-                <span class="method-start">40924 ms</span>
+                <span class="method-start">41150 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">AddToCart</span>
-                <span class="method-start">44985 ms</span>
+                <span class="method-start">45029 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=AddToCart status=SUCCESS method=VerifyAddToCartFuntionality.AddToCart()[pri:0, inst...)</span>
-                <span class="method-start">45773 ms</span>
+                <span class="method-start">46003 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.VerifyProductDetailsInMiniBasket</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifyProductDetailsInMiniBasket.checkDetailsInMiniBasket())</span>
-                <span class="method-start">46118 ms</span>
+                <span class="method-start">46422 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkDetailsInMiniBasket</span>
-                <span class="method-start">50566 ms</span>
+                <span class="method-start">49936 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=checkDetailsInMiniBasket status=SUCCESS method=VerifyProductDetailsInMiniBasket.che...)</span>
-                <span class="method-start">51568 ms</span>
+                <span class="method-start">50835 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.VerifyProductDetailsInCheckoutPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifyProductDetailsInCheckoutPage.checkoutPage())</span>
-                <span class="method-start">51903 ms</span>
+                <span class="method-start">51181 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">checkoutPage</span>
-                <span class="method-start">56071 ms</span>
+                <span class="method-start">55768 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=checkoutPage status=SUCCESS method=VerifyProductDetailsInCheckoutPage.checkoutPage(...)</span>
-                <span class="method-start">57831 ms</span>
+                <span class="method-start">57873 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.FailingTestCase_no...)</span>
-                <span class="method-start">58220 ms</span>
+                <span class="method-start">58555 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">FailingTestCase_notSelectTermsAndCondition</span>
-                <span class="method-start">62379 ms</span>
+                <span class="method-start">62917 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=FailingTestCase_notSelectTermsAndCondition status=SUCCESS method=VerifyOrderCannotB...)</span>
-                <span class="method-start">64394 ms</span>
+                <span class="method-start">65519 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.selectTermsAndCond...)</span>
-                <span class="method-start">64859 ms</span>
+                <span class="method-start">66029 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">selectTermsAndCondition</span>
-                <span class="method-start">68967 ms</span>
+                <span class="method-start">70064 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=selectTermsAndCondition status=SUCCESS method=VerifyOrderCannotBePlacedWithoutSelec...)</span>
-                <span class="method-start">70941 ms</span>
+                <span class="method-start">72963 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.VerifyUserCanNavigateToTermsAndConditionsPage</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifyUserCanNavigateToTermsAndConditionsPage.NavigateToTermsAndConditionsPage...)</span>
-                <span class="method-start">71355 ms</span>
+                <span class="method-start">73489 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
+                <img src="failed.png">
+                </img>
                 <span class="method-name">NavigateToTermsAndConditionsPage</span>
-                <span class="method-start">75947 ms</span>
+                <span class="method-start">77223 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">testStatus([TestResult name=NavigateToTermsAndConditionsPage status=SUCCESS method=VerifyUserCanNavigateToTerms...)</span>
-                <span class="method-start">78177 ms</span>
+                <span class="method-name">testStatus([TestResult name=NavigateToTermsAndConditionsPage status=FAILURE method=VerifyUserCanNavigateToTerms...)</span>
+                <span class="method-start">88816 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.VerifySingleItemOrderType</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifySingleItemOrderType.VerifySingleLineMultiQtyOrder())</span>
-                <span class="method-start">78568 ms</span>
+                <span class="method-start">89354 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifySingleLineMultiQtyOrder</span>
-                <span class="method-start">82674 ms</span>
+                <span class="method-start">92861 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=VerifySingleLineMultiQtyOrder status=SUCCESS method=VerifySingleItemOrderType.Verif...)</span>
-                <span class="method-start">84550 ms</span>
+                <span class="method-start">94897 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifySingleItemOrderType.VerifySingleLineOrder())</span>
-                <span class="method-start">84973 ms</span>
+                <span class="method-start">95312 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifySingleLineOrder</span>
-                <span class="method-start">89149 ms</span>
+                <span class="method-start">98632 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=VerifySingleLineOrder status=SUCCESS method=VerifySingleItemOrderType.VerifySingleL...)</span>
-                <span class="method-start">90837 ms</span>
+                <span class="method-start">100412 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcases.VerifyMultipleItemOrderType</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifyMultipleItemOrderType.VerifyMultiLIneOrder())</span>
-                <span class="method-start">91195 ms</span>
+                <span class="method-start">100852 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyMultiLIneOrder</span>
-                <span class="method-start">95726 ms</span>
+                <span class="method-start">104367 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=VerifyMultiLIneOrder status=SUCCESS method=VerifyMultipleItemOrderType.VerifyMultiL...)</span>
-                <span class="method-start">97472 ms</span>
+                <span class="method-start">106245 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp(public void testcases.VerifyMultipleItemOrderType.VerifyMultiLineMultiQtyOrder())</span>
-                <span class="method-start">97977 ms</span>
+                <span class="method-start">106796 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">VerifyMultiLineMultiQtyOrder</span>
-                <span class="method-start">102671 ms</span>
+                <span class="method-start">110200 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">testStatus([TestResult name=VerifyMultiLineMultiQtyOrder status=SUCCESS method=VerifyMultipleItemOrderType.Veri...)</span>
-                <span class="method-start">105097 ms</span>
+                <span class="method-start">112660 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

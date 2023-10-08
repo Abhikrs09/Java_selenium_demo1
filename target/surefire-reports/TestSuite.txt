@@ -1,17 +1,30 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 14, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 107.352 s <<< FAILURE! - in TestSuite
-testcases.VerifySearchFuntioanlityOnHomePage.FailedTestcase_matchingSearchedProduct  Time elapsed: 10.843 s  <<< FAILURE!
+Tests run: 14, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 114.725 s <<< FAILURE! - in TestSuite
+testcases.VerifySearchFuntioanlityOnHomePage.FailedTestcase_matchingSearchedProduct  Time elapsed: 10.761 s  <<< FAILURE!
 org.openqa.selenium.NoSuchElementException: 
 no such element: Unable to locate element: {"method":"xpath","selector":"//h4[text()='Cucumber - 1 Kg']"}
-  (Session info: chrome=117.0.5938.92)
+  (Session info: chrome=117.0.5938.134)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.11.0', revision: '040bc5406b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8.1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [635cb4fb023424d5e1b431a9f6a35b0b, findElement {using=xpath, value=//h4[text()='Cucumber - 1 Kg']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.92, chrome: {chromedriverVersion: 117.0.5938.92 (67649b10b92b..., userDataDir: C:\Users\Kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51178}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51178/devtoo..., se:cdpVersion: 117.0.5938.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 635cb4fb023424d5e1b431a9f6a35b0b
+Command: [2f4baaa1c2e99a030edc6ac657ac88e3, findElement {using=xpath, value=//h4[text()='Cucumber - 1 Kg']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\Kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53592}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53592/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f4baaa1c2e99a030edc6ac657ac88e3
 	at testcases.VerifySearchFuntioanlityOnHomePage.FailedTestcase_matchingSearchedProduct(VerifySearchFuntioanlityOnHomePage.java:50)
+
+testcases.VerifyUserCanNavigateToTermsAndConditionsPage.NavigateToTermsAndConditionsPage  Time elapsed: 11.603 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[contains(text(),'Terms & Conditions')]"}
+  (Session info: chrome=117.0.5938.134)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [39cab8739cb45e794de9a5dc6961901c, findElement {using=xpath, value=//a[contains(text(),'Terms & Conditions')]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 117.0.5938.134, chrome: {chromedriverVersion: 117.0.5938.149 (e3344ddefa1..., userDataDir: C:\Users\Kumar\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53822}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53822/devtoo..., se:cdpVersion: 117.0.5938.134, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 39cab8739cb45e794de9a5dc6961901c
+	at testcases.VerifyUserCanNavigateToTermsAndConditionsPage.NavigateToTermsAndConditionsPage(VerifyUserCanNavigateToTermsAndConditionsPage.java:41)
 

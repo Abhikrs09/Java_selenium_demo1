@@ -3,6 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="Test(failed)" verbose="0">
     <classes>
+      <class name="testcases.VerifyUserCanNavigateToTermsAndConditionsPage">
+        <methods>
+          <include name="testStatus"/>
+          <include name="setUp"/>
+          <include name="NavigateToTermsAndConditionsPage"/>
+        </methods>
+      </class> <!-- testcases.VerifyUserCanNavigateToTermsAndConditionsPage -->
       <class name="testcases.VerifySearchFuntioanlityOnHomePage">
         <methods>
           <include name="testStatus"/>
