@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="13" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-26T15:22:10 IST" name="Suite" finished-at="2023-09-26T15:24:31 IST" duration-ms="141471">
+  <suite started-at="2023-10-23T22:14:04 IST" name="Suite" finished-at="2023-10-23T22:16:22 IST" duration-ms="138507">
     <groups>
     </groups>
-    <test started-at="2023-09-26T15:22:10 IST" name="Test" finished-at="2023-09-26T15:24:31 IST" duration-ms="141471">
+    <test started-at="2023-10-23T22:14:04 IST" name="Test" finished-at="2023-10-23T22:16:22 IST" duration-ms="138507">
       <class name="testcases.VerifyProductDetailsInMiniBasket">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@2cb3d0f7]" started-at="2023-09-26T15:23:01 IST" name="setUp" finished-at="2023-09-26T15:23:06 IST" duration-ms="5886" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@44e3760b]" started-at="2023-10-23T22:14:59 IST" name="setUp" finished-at="2023-10-23T22:15:05 IST" duration-ms="5490" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkDetailsInMiniBasket()[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@2cb3d0f7]" started-at="2023-09-26T15:23:06 IST" name="checkDetailsInMiniBasket" finished-at="2023-09-26T15:23:08 IST" duration-ms="1301" status="PASS">
+        <test-method signature="checkDetailsInMiniBasket()[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@44e3760b]" started-at="2023-10-23T22:15:05 IST" name="checkDetailsInMiniBasket" finished-at="2023-10-23T22:15:06 IST" duration-ms="1167" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkDetailsInMiniBasket -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@2cb3d0f7]" started-at="2023-09-26T15:23:08 IST" name="testStatus" finished-at="2023-09-26T15:23:09 IST" duration-ms="1284" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@44e3760b]" started-at="2023-10-23T22:15:06 IST" name="testStatus" finished-at="2023-10-23T22:15:07 IST" duration-ms="1318" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkDetailsInMiniBasket status=SUCCESS method=VerifyProductDetailsInMiniBasket.checkDetailsInMiniBasket()[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@2cb3d0f7] output={null}]]]>
+                <![CDATA[[TestResult name=checkDetailsInMiniBasket status=SUCCESS method=VerifyProductDetailsInMiniBasket.checkDetailsInMiniBasket()[pri:0, instance:testcases.VerifyProductDetailsInMiniBasket@44e3760b] output={null}]]]>
               </value>
             </param>
           </params>
@@ -35,7 +35,7 @@
         </test-method> <!-- testStatus -->
       </class> <!-- testcases.VerifyProductDetailsInMiniBasket -->
       <class name="testcases.VerifyProductsAreDisplayedOnTheHomePage">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@71ae31b0]" started-at="2023-09-26T15:22:10 IST" name="setUp" finished-at="2023-09-26T15:22:22 IST" duration-ms="12362" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@6f0ca692]" started-at="2023-10-23T22:14:04 IST" name="setUp" finished-at="2023-10-23T22:14:14 IST" duration-ms="10115" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,15 +46,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="imageAreDisplayedOrNot()[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@71ae31b0]" started-at="2023-09-26T15:22:22 IST" name="imageAreDisplayedOrNot" finished-at="2023-09-26T15:22:22 IST" duration-ms="142" status="PASS">
+        <test-method signature="imageAreDisplayedOrNot()[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@6f0ca692]" started-at="2023-10-23T22:14:14 IST" name="imageAreDisplayedOrNot" finished-at="2023-10-23T22:14:14 IST" duration-ms="117" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- imageAreDisplayedOrNot -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@71ae31b0]" started-at="2023-09-26T15:22:22 IST" name="testStatus" finished-at="2023-09-26T15:22:24 IST" duration-ms="2008" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@6f0ca692]" started-at="2023-10-23T22:14:14 IST" name="testStatus" finished-at="2023-10-23T22:14:16 IST" duration-ms="1822" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=imageAreDisplayedOrNot status=SUCCESS method=VerifyProductsAreDisplayedOnTheHomePage.imageAreDisplayedOrNot()[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@71ae31b0] output={null}]]]>
+                <![CDATA[[TestResult name=imageAreDisplayedOrNot status=SUCCESS method=VerifyProductsAreDisplayedOnTheHomePage.imageAreDisplayedOrNot()[pri:0, instance:testcases.VerifyProductsAreDisplayedOnTheHomePage@6f0ca692] output={null}]]]>
               </value>
             </param>
           </params>
@@ -63,7 +63,7 @@
         </test-method> <!-- testStatus -->
       </class> <!-- testcases.VerifyProductsAreDisplayedOnTheHomePage -->
       <class name="testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@6f0ca692]" started-at="2023-09-26T15:22:42 IST" name="setUp" finished-at="2023-09-26T15:22:48 IST" duration-ms="6084" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@2cb3d0f7]" started-at="2023-10-23T22:14:42 IST" name="setUp" finished-at="2023-10-23T22:14:50 IST" duration-ms="8216" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -74,15 +74,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyAllElements()[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@6f0ca692]" started-at="2023-09-26T15:22:48 IST" name="verifyAllElements" finished-at="2023-09-26T15:22:49 IST" duration-ms="1101" status="PASS">
+        <test-method signature="verifyAllElements()[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@2cb3d0f7]" started-at="2023-10-23T22:14:50 IST" name="verifyAllElements" finished-at="2023-10-23T22:14:51 IST" duration-ms="769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyAllElements -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@6f0ca692]" started-at="2023-09-26T15:22:49 IST" name="testStatus" finished-at="2023-09-26T15:22:50 IST" duration-ms="1315" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@2cb3d0f7]" started-at="2023-10-23T22:14:51 IST" name="testStatus" finished-at="2023-10-23T22:14:52 IST" duration-ms="1196" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=verifyAllElements status=SUCCESS method=VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct.verifyAllElements()[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@6f0ca692] output={null}]]]>
+                <![CDATA[[TestResult name=verifyAllElements status=SUCCESS method=VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct.verifyAllElements()[pri:0, instance:testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct@2cb3d0f7] output={null}]]]>
               </value>
             </param>
           </params>
@@ -91,7 +91,7 @@
         </test-method> <!-- testStatus -->
       </class> <!-- testcases.VerifyProductImagePriceAndAddToCartButtonAreDisplayedForEachProduct -->
       <class name="testcases.VerifyMultipleItemOrderType">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyMultipleItemOrderType@1d7f7be7]" started-at="2023-09-26T15:24:08 IST" name="setUp" finished-at="2023-09-26T15:24:14 IST" duration-ms="5866" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyMultipleItemOrderType@1ddae9b5]" started-at="2023-10-23T22:16:04 IST" name="setUp" finished-at="2023-10-23T22:16:09 IST" duration-ms="5066" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,22 +102,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyMultiLIneOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@1d7f7be7]" started-at="2023-09-26T15:24:14 IST" name="VerifyMultiLIneOrder" finished-at="2023-09-26T15:24:16 IST" duration-ms="2776" status="PASS">
+        <test-method signature="VerifyMultiLIneOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@1ddae9b5]" started-at="2023-10-23T22:16:09 IST" name="VerifyMultiLIneOrder" finished-at="2023-10-23T22:16:12 IST" duration-ms="2525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMultiLIneOrder -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyMultipleItemOrderType@1d7f7be7]" started-at="2023-09-26T15:24:16 IST" name="testStatus" finished-at="2023-09-26T15:24:18 IST" duration-ms="1274" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyMultipleItemOrderType@1ddae9b5]" started-at="2023-10-23T22:16:12 IST" name="testStatus" finished-at="2023-10-23T22:16:13 IST" duration-ms="1034" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyMultiLIneOrder status=SUCCESS method=VerifyMultipleItemOrderType.VerifyMultiLIneOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@1d7f7be7] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyMultiLIneOrder status=SUCCESS method=VerifyMultipleItemOrderType.VerifyMultiLIneOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@1ddae9b5] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStatus -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyMultipleItemOrderType@1d7f7be7]" started-at="2023-09-26T15:24:18 IST" name="setUp" finished-at="2023-09-26T15:24:25 IST" duration-ms="7241" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyMultipleItemOrderType@1ddae9b5]" started-at="2023-10-23T22:16:13 IST" name="setUp" finished-at="2023-10-23T22:16:18 IST" duration-ms="5046" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -128,15 +128,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifyMultiLineMultiQtyOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@1d7f7be7]" started-at="2023-09-26T15:24:25 IST" name="VerifyMultiLineMultiQtyOrder" finished-at="2023-09-26T15:24:30 IST" duration-ms="4798" status="PASS">
+        <test-method signature="VerifyMultiLineMultiQtyOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@1ddae9b5]" started-at="2023-10-23T22:16:18 IST" name="VerifyMultiLineMultiQtyOrder" finished-at="2023-10-23T22:16:21 IST" duration-ms="3457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifyMultiLineMultiQtyOrder -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyMultipleItemOrderType@1d7f7be7]" started-at="2023-09-26T15:24:30 IST" name="testStatus" finished-at="2023-09-26T15:24:31 IST" duration-ms="1300" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyMultipleItemOrderType@1ddae9b5]" started-at="2023-10-23T22:16:21 IST" name="testStatus" finished-at="2023-10-23T22:16:22 IST" duration-ms="1207" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifyMultiLineMultiQtyOrder status=SUCCESS method=VerifyMultipleItemOrderType.VerifyMultiLineMultiQtyOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@1d7f7be7] output={null}]]]>
+                <![CDATA[[TestResult name=VerifyMultiLineMultiQtyOrder status=SUCCESS method=VerifyMultipleItemOrderType.VerifyMultiLineMultiQtyOrder()[pri:0, instance:testcases.VerifyMultipleItemOrderType@1ddae9b5] output={null}]]]>
               </value>
             </param>
           </params>
@@ -145,7 +145,7 @@
         </test-method> <!-- testStatus -->
       </class> <!-- testcases.VerifyMultipleItemOrderType -->
       <class name="testcases.VerifyUserCanNavigateToTermsAndConditionsPage">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@6a66a204]" started-at="2023-09-26T15:23:37 IST" name="setUp" finished-at="2023-09-26T15:23:43 IST" duration-ms="5958" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@1d7f7be7]" started-at="2023-10-23T22:15:36 IST" name="setUp" finished-at="2023-10-23T22:15:42 IST" duration-ms="5481" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,15 +156,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="NavigateToTermsAndConditionsPage()[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@6a66a204]" started-at="2023-09-26T15:23:43 IST" name="NavigateToTermsAndConditionsPage" finished-at="2023-09-26T15:23:46 IST" duration-ms="2315" status="PASS">
+        <test-method signature="NavigateToTermsAndConditionsPage()[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@1d7f7be7]" started-at="2023-10-23T22:15:42 IST" name="NavigateToTermsAndConditionsPage" finished-at="2023-10-23T22:15:44 IST" duration-ms="2788" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigateToTermsAndConditionsPage -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@6a66a204]" started-at="2023-09-26T15:23:46 IST" name="testStatus" finished-at="2023-09-26T15:23:47 IST" duration-ms="1365" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@1d7f7be7]" started-at="2023-10-23T22:15:44 IST" name="testStatus" finished-at="2023-10-23T22:15:46 IST" duration-ms="1319" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=NavigateToTermsAndConditionsPage status=SUCCESS method=VerifyUserCanNavigateToTermsAndConditionsPage.NavigateToTermsAndConditionsPage()[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@6a66a204] output={null}]]]>
+                <![CDATA[[TestResult name=NavigateToTermsAndConditionsPage status=SUCCESS method=VerifyUserCanNavigateToTermsAndConditionsPage.NavigateToTermsAndConditionsPage()[pri:0, instance:testcases.VerifyUserCanNavigateToTermsAndConditionsPage@1d7f7be7] output={null}]]]>
               </value>
             </param>
           </params>
@@ -173,7 +173,7 @@
         </test-method> <!-- testStatus -->
       </class> <!-- testcases.VerifyUserCanNavigateToTermsAndConditionsPage -->
       <class name="testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@44e3760b]" started-at="2023-09-26T15:23:18 IST" name="setUp" finished-at="2023-09-26T15:23:24 IST" duration-ms="5721" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@5860f3d7]" started-at="2023-10-23T22:15:17 IST" name="setUp" finished-at="2023-10-23T22:15:23 IST" duration-ms="5805" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -184,22 +184,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="FailingTestCase_notSelectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@44e3760b]" started-at="2023-09-26T15:23:24 IST" name="FailingTestCase_notSelectTermsAndCondition" finished-at="2023-09-26T15:23:26 IST" duration-ms="2379" status="PASS">
+        <test-method signature="FailingTestCase_notSelectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@5860f3d7]" started-at="2023-10-23T22:15:23 IST" name="FailingTestCase_notSelectTermsAndCondition" finished-at="2023-10-23T22:15:25 IST" duration-ms="2621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailingTestCase_notSelectTermsAndCondition -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@44e3760b]" started-at="2023-09-26T15:23:26 IST" name="testStatus" finished-at="2023-09-26T15:23:27 IST" duration-ms="1159" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@5860f3d7]" started-at="2023-10-23T22:15:25 IST" name="testStatus" finished-at="2023-10-23T22:15:26 IST" duration-ms="1057" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=FailingTestCase_notSelectTermsAndCondition status=SUCCESS method=VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.FailingTestCase_notSelectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@44e3760b] output={null}]]]>
+                <![CDATA[[TestResult name=FailingTestCase_notSelectTermsAndCondition status=SUCCESS method=VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.FailingTestCase_notSelectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@5860f3d7] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStatus -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@44e3760b]" started-at="2023-09-26T15:23:27 IST" name="setUp" finished-at="2023-09-26T15:23:33 IST" duration-ms="6024" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@5860f3d7]" started-at="2023-10-23T22:15:26 IST" name="setUp" finished-at="2023-10-23T22:15:32 IST" duration-ms="6046" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -210,15 +210,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="selectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@44e3760b]" started-at="2023-09-26T15:23:33 IST" name="selectTermsAndCondition" finished-at="2023-09-26T15:23:36 IST" duration-ms="2734" status="PASS">
+        <test-method signature="selectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@5860f3d7]" started-at="2023-10-23T22:15:32 IST" name="selectTermsAndCondition" finished-at="2023-10-23T22:15:35 IST" duration-ms="2566" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectTermsAndCondition -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@44e3760b]" started-at="2023-09-26T15:23:36 IST" name="testStatus" finished-at="2023-09-26T15:23:37 IST" duration-ms="1286" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@5860f3d7]" started-at="2023-10-23T22:15:35 IST" name="testStatus" finished-at="2023-10-23T22:15:36 IST" duration-ms="1209" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectTermsAndCondition status=SUCCESS method=VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.selectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@44e3760b] output={null}]]]>
+                <![CDATA[[TestResult name=selectTermsAndCondition status=SUCCESS method=VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions.selectTermsAndCondition()[pri:0, instance:testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions@5860f3d7] output={null}]]]>
               </value>
             </param>
           </params>
@@ -227,7 +227,7 @@
         </test-method> <!-- testStatus -->
       </class> <!-- testcases.VerifyOrderCannotBePlacedWithoutSelectingTermsAndConditions -->
       <class name="testcases.VerifyAddToCartFuntionality">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyAddToCartFuntionality@2c104774]" started-at="2023-09-26T15:22:50 IST" name="setUp" finished-at="2023-09-26T15:22:58 IST" duration-ms="7763" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyAddToCartFuntionality@4e517165]" started-at="2023-10-23T22:14:52 IST" name="setUp" finished-at="2023-10-23T22:14:57 IST" duration-ms="5292" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -238,15 +238,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AddToCart()[pri:0, instance:testcases.VerifyAddToCartFuntionality@2c104774]" started-at="2023-09-26T15:22:58 IST" name="AddToCart" finished-at="2023-09-26T15:22:59 IST" duration-ms="1023" status="PASS">
+        <test-method signature="AddToCart()[pri:0, instance:testcases.VerifyAddToCartFuntionality@4e517165]" started-at="2023-10-23T22:14:57 IST" name="AddToCart" finished-at="2023-10-23T22:14:58 IST" duration-ms="934" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddToCart -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyAddToCartFuntionality@2c104774]" started-at="2023-09-26T15:22:59 IST" name="testStatus" finished-at="2023-09-26T15:23:01 IST" duration-ms="1431" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyAddToCartFuntionality@4e517165]" started-at="2023-10-23T22:14:58 IST" name="testStatus" finished-at="2023-10-23T22:14:59 IST" duration-ms="1178" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=VerifyAddToCartFuntionality.AddToCart()[pri:0, instance:testcases.VerifyAddToCartFuntionality@2c104774] output={null}]]]>
+                <![CDATA[[TestResult name=AddToCart status=SUCCESS method=VerifyAddToCartFuntionality.AddToCart()[pri:0, instance:testcases.VerifyAddToCartFuntionality@4e517165] output={null}]]]>
               </value>
             </param>
           </params>
@@ -255,7 +255,7 @@
         </test-method> <!-- testStatus -->
       </class> <!-- testcases.VerifyAddToCartFuntionality -->
       <class name="testcases.VerifyProductDetailsInCheckoutPage">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@4e517165]" started-at="2023-09-26T15:23:09 IST" name="setUp" finished-at="2023-09-26T15:23:15 IST" duration-ms="5606" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@6a66a204]" started-at="2023-10-23T22:15:07 IST" name="setUp" finished-at="2023-10-23T22:15:13 IST" duration-ms="5954" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -266,15 +266,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="checkoutPage()[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@4e517165]" started-at="2023-09-26T15:23:15 IST" name="checkoutPage" finished-at="2023-09-26T15:23:16 IST" duration-ms="1779" status="PASS">
+        <test-method signature="checkoutPage()[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@6a66a204]" started-at="2023-10-23T22:15:13 IST" name="checkoutPage" finished-at="2023-10-23T22:15:15 IST" duration-ms="1988" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkoutPage -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@4e517165]" started-at="2023-09-26T15:23:16 IST" name="testStatus" finished-at="2023-09-26T15:23:18 IST" duration-ms="1504" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@6a66a204]" started-at="2023-10-23T22:15:15 IST" name="testStatus" finished-at="2023-10-23T22:15:17 IST" duration-ms="1615" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=checkoutPage status=SUCCESS method=VerifyProductDetailsInCheckoutPage.checkoutPage()[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@4e517165] output={null}]]]>
+                <![CDATA[[TestResult name=checkoutPage status=SUCCESS method=VerifyProductDetailsInCheckoutPage.checkoutPage()[pri:0, instance:testcases.VerifyProductDetailsInCheckoutPage@6a66a204] output={null}]]]>
               </value>
             </param>
           </params>
@@ -283,7 +283,7 @@
         </test-method> <!-- testStatus -->
       </class> <!-- testcases.VerifyProductDetailsInCheckoutPage -->
       <class name="testcases.VerifySingleItemOrderType">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySingleItemOrderType@5860f3d7]" started-at="2023-09-26T15:23:47 IST" name="setUp" finished-at="2023-09-26T15:23:53 IST" duration-ms="5675" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySingleItemOrderType@42f3156d]" started-at="2023-10-23T22:15:46 IST" name="setUp" finished-at="2023-10-23T22:15:52 IST" duration-ms="5898" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -294,22 +294,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifySingleLineMultiQtyOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@5860f3d7]" started-at="2023-09-26T15:23:53 IST" name="VerifySingleLineMultiQtyOrder" finished-at="2023-09-26T15:23:55 IST" duration-ms="2729" status="PASS">
+        <test-method signature="VerifySingleLineMultiQtyOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@42f3156d]" started-at="2023-10-23T22:15:52 IST" name="VerifySingleLineMultiQtyOrder" finished-at="2023-10-23T22:15:54 IST" duration-ms="2513" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySingleLineMultiQtyOrder -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySingleItemOrderType@5860f3d7]" started-at="2023-09-26T15:23:55 IST" name="testStatus" finished-at="2023-09-26T15:23:57 IST" duration-ms="1473" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySingleItemOrderType@42f3156d]" started-at="2023-10-23T22:15:54 IST" name="testStatus" finished-at="2023-10-23T22:15:55 IST" duration-ms="1105" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifySingleLineMultiQtyOrder status=SUCCESS method=VerifySingleItemOrderType.VerifySingleLineMultiQtyOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@5860f3d7] output={null}]]]>
+                <![CDATA[[TestResult name=VerifySingleLineMultiQtyOrder status=SUCCESS method=VerifySingleItemOrderType.VerifySingleLineMultiQtyOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@42f3156d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStatus -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySingleItemOrderType@5860f3d7]" started-at="2023-09-26T15:23:57 IST" name="setUp" finished-at="2023-09-26T15:24:04 IST" duration-ms="7208" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySingleItemOrderType@42f3156d]" started-at="2023-10-23T22:15:55 IST" name="setUp" finished-at="2023-10-23T22:16:01 IST" duration-ms="5420" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -320,15 +320,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="VerifySingleLineOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@5860f3d7]" started-at="2023-09-26T15:24:04 IST" name="VerifySingleLineOrder" finished-at="2023-09-26T15:24:06 IST" duration-ms="2404" status="PASS">
+        <test-method signature="VerifySingleLineOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@42f3156d]" started-at="2023-10-23T22:16:01 IST" name="VerifySingleLineOrder" finished-at="2023-10-23T22:16:03 IST" duration-ms="2224" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- VerifySingleLineOrder -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySingleItemOrderType@5860f3d7]" started-at="2023-09-26T15:24:06 IST" name="testStatus" finished-at="2023-09-26T15:24:08 IST" duration-ms="1328" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySingleItemOrderType@42f3156d]" started-at="2023-10-23T22:16:03 IST" name="testStatus" finished-at="2023-10-23T22:16:04 IST" duration-ms="1180" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=VerifySingleLineOrder status=SUCCESS method=VerifySingleItemOrderType.VerifySingleLineOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@5860f3d7] output={null}]]]>
+                <![CDATA[[TestResult name=VerifySingleLineOrder status=SUCCESS method=VerifySingleItemOrderType.VerifySingleLineOrder()[pri:0, instance:testcases.VerifySingleItemOrderType@42f3156d] output={null}]]]>
               </value>
             </param>
           </params>
@@ -337,7 +337,7 @@
         </test-method> <!-- testStatus -->
       </class> <!-- testcases.VerifySingleItemOrderType -->
       <class name="testcases.VerifySearchFuntioanlityOnHomePage">
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@4ba534b0]" started-at="2023-09-26T15:22:24 IST" name="setUp" finished-at="2023-09-26T15:22:30 IST" duration-ms="6183" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@2c104774]" started-at="2023-10-23T22:14:16 IST" name="setUp" finished-at="2023-10-23T22:14:21 IST" duration-ms="5494" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -348,22 +348,95 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="FailedTestcase_matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@4ba534b0]" started-at="2023-09-26T15:22:30 IST" name="FailedTestcase_matchingSearchedProduct" finished-at="2023-09-26T15:22:31 IST" duration-ms="1027" status="PASS">
+        <test-method signature="FailedTestcase_matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@2c104774]" started-at="2023-10-23T22:14:21 IST" name="FailedTestcase_matchingSearchedProduct" finished-at="2023-10-23T22:14:32 IST" duration-ms="10840" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //h4[text()='Cucumber - 1 Kg']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [55820e76-7e80-46c4-8f75-68c7d4bec0a4, findElement {using=xpath, value=//h4[text()='Cucumber - 1 Kg']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:42902, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7460, moz:profile: C:\Users\Kumar\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:42902/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 55820e76-7e80-46c4-8f75-68c7d4bec0a4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //h4[text()='Cucumber - 1 Kg']
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.2'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [55820e76-7e80-46c4-8f75-68c7d4bec0a4, findElement {using=xpath, value=//h4[text()='Cucumber - 1 Kg']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 118.0.2, moz:accessibilityChecks: false, moz:buildID: 20231009140911, moz:debuggerAddress: 127.0.0.1:42902, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 7460, moz:profile: C:\Users\Kumar\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:42902/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 55820e76-7e80-46c4-8f75-68c7d4bec0a4
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:349)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source)
+at Pages.HomePage.dispalyCucumberText(HomePage.java:86)
+at Pages.HomePage.isTextContains(HomePage.java:175)
+at testcases.VerifySearchFuntioanlityOnHomePage.FailedTestcase_matchingSearchedProduct(VerifySearchFuntioanlityOnHomePage.java:50)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FailedTestcase_matchingSearchedProduct -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@4ba534b0]" started-at="2023-09-26T15:22:31 IST" name="testStatus" finished-at="2023-09-26T15:22:33 IST" duration-ms="1564" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@2c104774]" started-at="2023-10-23T22:14:32 IST" name="testStatus" finished-at="2023-10-23T22:14:34 IST" duration-ms="1426" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=FailedTestcase_matchingSearchedProduct status=SUCCESS method=VerifySearchFuntioanlityOnHomePage.FailedTestcase_matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@4ba534b0] output={null}]]]>
+                <![CDATA[[TestResult name=FailedTestcase_matchingSearchedProduct status=FAILURE method=VerifySearchFuntioanlityOnHomePage.FailedTestcase_matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@2c104774] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testStatus -->
-        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@4ba534b0]" started-at="2023-09-26T15:22:33 IST" name="setUp" finished-at="2023-09-26T15:22:39 IST" duration-ms="6551" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.reflect.Method)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@2c104774]" started-at="2023-10-23T22:14:34 IST" name="setUp" finished-at="2023-10-23T22:14:39 IST" duration-ms="5528" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -374,15 +447,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@4ba534b0]" started-at="2023-09-26T15:22:39 IST" name="matchingSearchedProduct" finished-at="2023-09-26T15:22:40 IST" duration-ms="1043" status="PASS">
+        <test-method signature="matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@2c104774]" started-at="2023-10-23T22:14:39 IST" name="matchingSearchedProduct" finished-at="2023-10-23T22:14:40 IST" duration-ms="1095" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- matchingSearchedProduct -->
-        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@4ba534b0]" started-at="2023-09-26T15:22:40 IST" name="testStatus" finished-at="2023-09-26T15:22:42 IST" duration-ms="1404" status="PASS">
+        <test-method is-config="true" signature="testStatus(org.testng.ITestResult)[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@2c104774]" started-at="2023-10-23T22:14:40 IST" name="testStatus" finished-at="2023-10-23T22:14:42 IST" duration-ms="1299" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=matchingSearchedProduct status=SUCCESS method=VerifySearchFuntioanlityOnHomePage.matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@4ba534b0] output={null}]]]>
+                <![CDATA[[TestResult name=matchingSearchedProduct status=SUCCESS method=VerifySearchFuntioanlityOnHomePage.matchingSearchedProduct()[pri:0, instance:testcases.VerifySearchFuntioanlityOnHomePage@2c104774] output={null}]]]>
               </value>
             </param>
           </params>

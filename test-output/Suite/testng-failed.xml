@@ -3,13 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.VerifySingleItemOrderType">
+      <class name="testcases.VerifySearchFuntioanlityOnHomePage">
         <methods>
           <include name="testStatus"/>
-          <include name="VerifySingleLineMultiQtyOrder"/>
+          <include name="FailedTestcase_matchingSearchedProduct"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.VerifySingleItemOrderType -->
+      </class> <!-- testcases.VerifySearchFuntioanlityOnHomePage -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
